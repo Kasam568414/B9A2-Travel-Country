@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+   /* navbar section  */
+  nav{
+    flex-direction: column;
+
+  }
+
+  .div-2-container{
+    flex-direction: column;
+  }
+  /* banner section  */
+  .banner-content h1{
+    
+    font-size: 22px;
+  }
+
+  
+  .banner-content p{
+    font-size: 14px;
+  }
+
+  .container {
+    width: 88%;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .background {
+    padding: 24px 60px;
+    margin-top: 15px;
+  }
+  .button-input {
+    margin-left: 10px;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.button-input .btn button {
+    width: 200px;
+}
+/* popular section  */
+.container .image img{
+    width: 335px;
+    margin-top: 15px;
+}
+.popular-tours{
+    flex-direction: column;
+}
+
+/* destination section  */
+.your-destination .row-1{
+    flex-direction: column;
+}
+.your-destination .destination-row-2 {
+    grid-template-columns: 1fr;
+}
+
+.your-destination .destination-img-row-3{
+    flex-direction: column;
+}
+/* chose us section  */
+.item{
+    width: 100%;
+
+}
+.chose-row{
+    flex-direction: column;
+}
+}
