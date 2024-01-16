@@ -36,6 +36,9 @@ nav {
   font-size: 18px;
   font-weight: 400;
 }
+.hambar-icon{
+  display: none;
+}
 
 /* banner section  */
 .background {
@@ -95,9 +98,11 @@ nav {
   cursor: pointer;
   transition: 1s;
 }
+
 .button-input .btn button:hover {
   background-color: aqua;
 }
+
 .button-input i{
   color:rgba(19, 19, 24, 0.7)
 }
