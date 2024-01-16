@@ -10,7 +10,7 @@
 }
 .container {
   width: 80%;
-  max-width: 1440px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 nav {
@@ -39,7 +39,9 @@ nav {
 
 /* banner section  */
 .background {
-  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+
+  url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -63,22 +65,24 @@ nav {
   font-weight: 400;
 }
 .button-input {
-  display: flex;
+  /* display: flex; */
+  display: inline-flex;
   padding: 16px;
   align-items: flex-start;
-  justify-content: space-evenly;
   margin-top: 40px;
   margin-left: 100px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
+  gap: 10px;
 }
 .button-input .btn input {
-  padding: 20px 20px;
+  padding: 18px 20px;
   border-radius: 8px;
   background: #fff;
   text-align: start;
   border: 0;
   cursor: pointer;
+  text-decoration: none;
 }
 .button-input .btn button {
   border-radius: 8px;
@@ -93,6 +97,9 @@ nav {
 }
 .button-input .btn button:hover {
   background-color: aqua;
+}
+.button-input i{
+  color:rgba(19, 19, 24, 0.7)
 }
 /* popular tours  */
 .popular-tours {
@@ -300,11 +307,11 @@ p {
 .discount {
   border-radius: 16px;
   background: #ff5400;
-  padding: 20px 40px;
-  width: 324px;
+  padding: 20px 30px;
+  width: 310px;
   position: absolute;
-  right: 16px;
-  bottom: 100px;
+  right: 35px;
+  bottom: 120px;
   transform: rotate(-30deg);
 }
 .discount p {

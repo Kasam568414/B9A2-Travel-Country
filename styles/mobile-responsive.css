@@ -1,17 +1,30 @@
 @media screen and (max-width: 600px) {
    /* navbar section  */
-  nav{
-    flex-direction: column;
-
+   .container {
+    width: 80%;
+    max-width: 335px;
+    margin: 0 auto;
+    
   }
 
   .div-2-container{
-    flex-direction: column;
+    display: none;
+  }
+  .hambar-icon{
+    display: block;
+    padding-right: 30px;
+    font-size: 20px;
+    gap: 5px;
+  }
+  
+  .div-container h1 {
+    font-size: 26px;
   }
   /* banner section  */
   .banner-content h1{
     
     font-size: 22px;
+    
   }
 
   
@@ -19,11 +32,7 @@
     font-size: 14px;
   }
 
-  .container {
-    width: 88%;
-    max-width: 375px;
-    margin: 0 auto;
-  }
+  
 
   .background {
     padding: 24px 60px;
@@ -43,7 +52,7 @@
 .container .image img{
     width: 335px;
     margin-top: 15px;
-    margin-left: 20px;
+   
 }
 .popular-tours{
     flex-direction: column;
