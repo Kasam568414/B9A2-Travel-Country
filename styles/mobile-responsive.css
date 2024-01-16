@@ -18,7 +18,7 @@
   }
   
   .div-container h1 {
-    font-size: 26px;
+    font-size: 20px;
   }
   /* banner section  */
   .banner-content h1{
@@ -39,7 +39,7 @@
     margin-top: 15px;
   }
   .button-input {
-    margin-left: 10px;
+    margin-left: -20px;
     flex-direction: column;
     gap: 10px;
 
