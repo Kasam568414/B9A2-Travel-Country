@@ -305,7 +305,7 @@ p {
   position: absolute;
   right: 16px;
   bottom: 100px;
-  transform: rotate(-20deg);
+  transform: rotate(-30deg);
 }
 .discount p {
   color: #fff;
